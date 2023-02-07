@@ -1,0 +1,41 @@
+.gnb-content{
+    width: 1000px;
+    height: 60px;
+}
+.logo{
+    margin-right: auto;
+}
+.logo > i {
+    font-size: 12px;
+    margin-left: 3px;
+}
+.search-box{
+    margin-right: auto;
+    background-color: #efefef;
+    width: 268px;
+    height: 36px;
+    border-radius: 8px;
+}
+.search-box > input {
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    margin-right: auto;
+    margin-left: 10px; 
+    text-indent: 25px;
+    font-weight: lighter;
+    background-image: url('../image/icons/11.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.search-box > input:focus{
+    outline: none;
+    background-image: none;
+    text-indent: 0;
+}
+.icons > img{
+    margin: 10px;
+}
+.gnb{
+    border: 0.5px solid #efefef;
+}
